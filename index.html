@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
    <head>
+           <!--links to external scripts starts here -->
+        <link rel="stylesheet" href="style.css">
+          <!--links to external ends starts here -->
         <meta name="description" content="web page name"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Website name</title>
@@ -9,8 +12,8 @@
 <!--Body of websitte starts here -->
     <body>
 <!--This is for the head image in png format -->
-        <div id = "png1"> 
-            <img src ="#" alt="image description">
+        <div class = "png1"> 
+            <img src ="png1.png" alt="image description">
         </div>
 <!--This is for the logo dive to be positioned in the side of the website name -->
         
@@ -18,11 +21,15 @@
 <!--Name of website to be positioned by the right of the logo and centre of the page-->        
         <div id = "Name"></div>
 <!-- Search bar position is centre-->
-        <div id = "search"></div>
+        <div class = "search">
+                <form method="POST" action="post.php">
+                <input name="search" type = "text" placeholder="Enter Question" style="width: 400px;">
+                <input name="searchbtn" type="submit" value="SEARCH">
+                </form>
+        </div>
 <!--Language section -->
         <div id = "langs"></div>
 <!--End of first section -->
-
 
 
         

@@ -1,0 +1,14 @@
+.png1  {
+    text-align: center;
+}
+.search  {
+    text-align: center;
+}
+input[type=submit] {
+    padding:5px 15px; 
+    background:rgb(247, 47, 157); 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
