@@ -6,9 +6,12 @@
 }
 input[type=submit] {
     padding:5px 15px; 
-    background:rgb(247, 47, 157); 
+    background:rgb(217, 211, 223)); 
     border:0 none;
     cursor:pointer;
     -webkit-border-radius: 5px;
     border-radius: 5px; 
 }
+body {
+    font-family: Courier, monospace;
+  }
