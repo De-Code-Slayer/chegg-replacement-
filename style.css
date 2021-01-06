@@ -1,8 +1,7 @@
 .png1  {
     text-align: center;
 }
-.search  {
-    text-align: center;
+
 }
 input[type=submit] {
     padding:5px 15px; 
@@ -15,3 +14,7 @@ input[type=submit] {
 body {
     font-family: Courier, monospace;
   }
+ .input-group{
+    margin:0 auto;
+     width: 70%;
+ }

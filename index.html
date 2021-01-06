@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
    <head>
+        <meta charset="utf-8">
            <!--links to external scripts starts here -->
+           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
           <!--links to external ends starts here -->
         <meta name="description" content="web page name"/>
@@ -21,14 +23,21 @@
 <!--Name of website to be positioned by the right of the logo and centre of the page-->        
         <div id = "Name"></div>
 <!-- Search bar position is centre-->
-        <div class = "search">
-                <form method="POST" action="post.php">
-                <input name="search" type = "text" placeholder="Enter Question" style="width: 400px;">
-                <input name="searchbtn" type="submit" value="SEARCH">
-                </form>
+<div class="input-group">
+<div class="input-group md-form form-sm form-2 pl-0">
+        
+        <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+        
+        <div class="input-group-append">
+          <span class="input-group-text red lighten-3" id="basic-text1"><i class="fas fa-search text-grey"
+              aria-hidden="true"></i></span>
+              <input type="submit" placeholder="search">
+      
         </div>
+      </div>
+</div>
         <div class="info">
-                <p>How to use</p>
+                <p></p>
 
         </div>
 <!--Language section -->
